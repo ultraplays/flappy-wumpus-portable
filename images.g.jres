@@ -1,0 +1,17 @@
+{
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAPAPAAAAAAAA/w8AAAAAAPD/DwAAAAAA//8PAAAAAPD//w8AAAAA////DwAAAAD///8PAAAAAPD//w8AAAAAAP//DwAAAAAA8P8PAAAAAAAA/w8AAAAAAADwDwAAAAAAAAAPAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "cursor"
+    },
+    "image1": {
+        "data": "hwQPABAAAAAAAJCZAAAAAAAAAACZmZmZAAAAkJmZmQAAkJmZmZmZAACZmZmZmZmZAJmZmZmZmQAAmZmZmZmZAACZ+Z+ZmZmZAJn5n5mZmQAAmZmZmZmZAACZERGZmZmZAJkRH5kJAAAAmRERmQkAAACQER+ZAAAAAAAREQAAAAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "wumpus"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
