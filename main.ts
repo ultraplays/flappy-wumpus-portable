@@ -13,7 +13,13 @@ controller.anyButton.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Gap, function (sprite, otherSprite) {
     if (otherSprite.right - sprite.left < 2) {
-        info.changeScoreBy(1)
+        question = randint(0, 12)
+        input2 = game.askForNumber(question)
+        if (input2 == question * 5) {
+            info.changeScoreBy(1)
+        } else {
+            game.over(false)
+        }
     }
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
@@ -25,6 +31,8 @@ let gapImage: Image = null
 let bottomImage: Image = null
 let topImage: Image = null
 let gap = 0
+let input2 = 0
+let question = 0
 let mySprite: Sprite = null
 scene.setBackgroundColor(6)
 info.setScore(0)
